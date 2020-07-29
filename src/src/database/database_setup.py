@@ -47,7 +47,7 @@ class MenuItem(Base):
     )
 
     course = Column(String(250))
-    description = Column(String(250))
+    description = Column(String(500))
     price = Column(String(8))
 
     restaurant_id = Column(
