@@ -18,6 +18,4 @@ RUN pipenv install
 
 COPY src ./
 
-# CMD [ "bash", "startup.sh" ]
-
-CMD [ "tail", "-f", "/dev/null" ]
+CMD [ "bash", "startup.sh" ]

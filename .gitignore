@@ -6,4 +6,3 @@ lib/
 pyvenv.cfg
 Dockerfile.dev
 src/db.sqlite3
-startup.sh
